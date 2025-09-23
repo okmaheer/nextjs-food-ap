@@ -1,10 +1,10 @@
-"use client"
+'use client';
 
-export default function ErrorPage() {
-    return (
-        <main className="error">
-            <h1>Something went wrong!</h1>
-            <p>Try refreshing the page, or go back to the home page.</p>
-        </main>
-    );
+export default function Error() {
+  return (
+    <main className="error">
+      <h1>An error occurred!</h1>
+      <p>Failed to fetch meal data. Please try again later.</p>
+    </main>
+  );
 }
